@@ -92,6 +92,8 @@ You will need:
 
 ## Lambda
 
+The Lambda handler will be `main`
+
 ### ENV Vars
 
 - `SLACK_CHANNEL`
