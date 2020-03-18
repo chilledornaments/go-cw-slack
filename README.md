@@ -1,4 +1,4 @@
-# ecs-cw-slack
+# go-cw-slack
 
 ## CloudWatch
 
