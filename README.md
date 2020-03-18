@@ -1,5 +1,15 @@
 # go-cw-slack
 
+## AWS Resources
+
+You will need:
+
+- A lambda function
+
+- An SNS topic that the lambda function is subscribed to
+
+- A CloudWatch alarm that sends breach and OK events to your SNS topic
+
 ## CloudWatch
 
 ### Sample Breach Event
