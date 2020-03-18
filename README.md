@@ -89,7 +89,6 @@
 - `SLACK_USERNAME`
 - `SLACK_WEBHOOK`
 
-
 ### Using
 
 You can retrieve this from `https://bhi-oss.s3.us-east-2.amazonaws.com/cw-go-slack/latest.zip`
