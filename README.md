@@ -104,3 +104,27 @@ The Lambda handler will be `main`
 ### Using
 
 You can retrieve this from `https://bhi-oss.s3.us-east-2.amazonaws.com/cw-go-slack/latest.zip`
+
+## SNS Access Policy Example
+
+```json
+{
+  "Version": "2008-10-17",
+  "Id": "cloudwatch",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "cloudwatch.amazonaws.com"
+      },
+      "Action": "SNS:Publish",
+      "Resource": "arn:aws:sns:us-east-2:ACCOUNT-ID:TOPIC-NAME",
+      "Condition": {
+        "StringLike": {
+          "AWS:SourceArn": "arn:aws:cloudwatch:*:ACCOUNT-ID:alarm:*"
+        }
+      }
+    }
+  ]
+}
+```
