@@ -1,5 +1,9 @@
 # go-cw-slack
 
+**THIS REPOSITORY IS ARCHIVED**
+
+Consider using [AWS Chatbot](https://aws.amazon.com/chatbot/) instead!
+
 ## AWS Resources
 
 You will need:
